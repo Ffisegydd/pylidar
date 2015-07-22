@@ -71,3 +71,26 @@ class LIDAR(object):
 
         plt.show()
 
+
+    # def __add__(self, other):
+    #
+    #     new = LIDAR()
+    #
+    #     xmin = min(self.x.min(), other.x.min())
+    #     xmax = max(self.x.max(), other.x.max())
+    #
+    #     ymin = min(self.y.min(), other.y.min())
+    #     ymax = max(self.y.max(), other.y.max())
+    #
+    #     x = np.linspace(xmin, xmax, xmax-xmin+1)
+    #     y = np.linspace(ymin, ymax, ymax-ymin+1)
+    #
+    #     new.x, new.y = np.meshgrid(x, y)
+    #
+    #     new.z = np.zeros(new.x.shape)
+    #
+    #     self_mask = np.logical_and(new.x == self.x, new.y == self.y)
+    #
+    #     return new
+
+
